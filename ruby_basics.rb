@@ -62,10 +62,25 @@ puts dates
 
 # 5. Write a program that outputs the factorial of the numbers 5, 6, 7, and 8.
 
+def factorial(num)
 
+  if num == 0
+    1
+  else  
+    num * factorial(num - 1)
+  end
+end
 
+puts factorial(25)
 
+#Write a program that calculates the squares of 3 float numbers of your choosing and outputs the result to the screen.
+puts 5 * 4 * 3 * 2 * 1
+puts 6 * 5 * 4 * 3 * 2 * 1
+puts 7 * 6 * 5 * 4 * 3 * 2 * 1
+puts 8* 7 * 6 * 5 * 4 * 3 * 2 * 1
 
+#Write a program that calculates the squares of 3 float numbers of your choosing and outputs the result to the screen.
 
-
-
+puts 4.30 ** 2
+puts 5.56 * 5.56
+puts 3.84 ** 2
