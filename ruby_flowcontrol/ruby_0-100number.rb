@@ -10,3 +10,4 @@ elsif number >=51 && number <= 100
 else number > 100
   puts "you entered a number over 100!"
 end
+
