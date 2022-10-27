@@ -1,1 +1,1 @@
-# Launch School prep exercises
+# Launch School prep exercises for ruby
